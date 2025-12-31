@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Soporte al Usuario - MassImageComp</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #ffffff;
+            --text: #111111;
+            --card: #f5f5f7;
+            --border: #e5e5ea;
+            --link: #0a84ff;
+            --success: #34c759;
+            --secondary: #8e8e93;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --text: #f2f2f7;
+                --card: #1c1c1e;
+                --border: #2c2c2e;
+                --link: #4da3ff;
+                --success: #32d74b;
+                --secondary: #98989d;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+            "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            background-color: var(--bg);
+            color: var(--text);
+            max-width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 12px;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        p {
+            margin: 12px 0;
+            font-size: 15px;
+        }
+
+        ul, ol {
+            padding-left: 24px;
+            margin: 12px 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .contact-section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+
+        .contact-button {
+            display: inline-block;
+            background: var(--link);
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 12px 0;
+            transition: opacity 0.2s;
+        }
+
+        .contact-button:hover {
+            opacity: 0.8;
+            text-decoration: none;
+        }
+
+        .contact-button:active {
+            opacity: 0.6;
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .email-link {
+            color: var(--link);
+            font-weight: 500;
+            word-break: break-all;
+        }
+
+        .highlight {
+            background: var(--card);
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid var(--link);
+            margin: 16px 0;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+
+        .faq-answer {
+            color: var(--secondary);
+            line-height: 1.6;
+        }
+
+        .info-box {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+
+        .response-time {
+            color: var(--success);
+            font-weight: 500;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--secondary);
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--success);
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 12px;
+            margin-left: 8px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .badge {
+                background: #32d74b;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Soporte al Usuario</h1>
+
+<div class="card">
+    <p>¡Gracias por usar <strong>MassImageComp</strong>!</p>
+    <p>Estamos comprometidos a brindarle la mejor experiencia de compresión y procesamiento de imágenes. Si tiene preguntas, sugerencias o comentarios, estaremos encantados de ayudarle.</p>
+</div>
+
+<section class="contact-section">
+    <h2>Contáctenos</h2>
+    <p>Puede contactarnos a través de los siguientes métodos:</p>
+    
+    <div style="margin: 20px 0;">
+        <p><strong>📧 Soporte por Email</strong></p>
+        <p>
+            <a href="mailto:wenxingjun@163.com?subject=MassImageComp%20Solicitud%20de%20Soporte&body=Hola,%0D%0A%0D%0ANecesito%20ayuda%20con:%0D%0A%0D%0ADescripción%20del%20problema:%0D%0A%0D%0AInformación%20del%20dispositivo:%0D%0AVersión%20del%20sistema:%0D%0AVersión%20de%20la%20aplicación:%0D%0A%0D%0A¡Gracias!" class="contact-button">
+                Enviar Email
+            </a>
+        </p>
+        <p class="email-link">wenxingjun@163.com</p>
+    </div>
+
+    <div class="info-box">
+        <p><strong>⏱️ Tiempo de Respuesta</strong></p>
+        <p class="response-time">Generalmente respondemos a sus correos electrónicos en <strong>1-5 días hábiles</strong>.</p>
+        <p style="font-size: 13px; color: var(--secondary); margin-top: 8px;">Por favor describa su problema en detalle, incluyendo modelo del dispositivo, versión del sistema y versión de la aplicación. Esto nos ayudará a resolver su problema más rápidamente.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Preguntas Frecuentes</h2>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: ¿Cómo restauro mis compras?</p>
+        <p class="faq-answer">A: Vaya a la página "Configuración" en la aplicación y toque "Restaurar Compra". Si su suscripción o compra no se puede restaurar, contáctenos por correo electrónico y proporcione su dirección de correo electrónico de Apple ID.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: ¿Cuáles son las limitaciones de la versión gratuita?</p>
+        <p class="faq-answer">A: La versión gratuita puede procesar hasta 3 imágenes por lote. Actualice a Pro para desbloquear procesamiento por lotes ilimitado, todos los formatos de salida y experiencia sin anuncios.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: ¿Qué formatos de imagen son compatibles?</p>
+        <p class="faq-answer">A: La aplicación admite formatos de imagen comunes como JPEG, PNG, HEIC, WebP y GIF. Los usuarios Pro pueden desbloquear todas las opciones de formato de salida.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: ¿Se suben las imágenes al servidor?</p>
+        <p class="faq-answer">A: No. Todo el procesamiento de imágenes se realiza localmente en su dispositivo. No subimos ni almacenamos ninguno de sus datos de imagen. Puede ver nuestra <a href="privacy.html">Política de Privacidad</a> para más información.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: ¿Cómo cancelo mi suscripción?</p>
+        <p class="faq-answer">A: Puede administrar su suscripción en iOS "Configuración" → "Apple ID" → "Suscripciones". Después de cancelar, aún puede usar las funciones Pro hasta que finalice el período de suscripción actual.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: ¿Por qué no puedo ver la versión de por vida?</p>
+        <p class="faq-answer">A: La versión de por vida puede no estar disponible temporalmente por las siguientes razones: el producto todavía se está configurando, su región no es compatible o el producto no está vinculado a la versión actual. Si aún no puede verla, contáctenos.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Comentarios y Sugerencias</h2>
+    <div class="card">
+        <p>¡Valoramos sus comentarios! Si tiene sugerencias de funciones, informes de errores o experiencias que compartir, no dude en contactarnos por correo electrónico.</p>
+        <p>Sus comentarios nos ayudan a mejorar continuamente la aplicación y brindar un mejor servicio.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Soporte Técnico</h2>
+    <div class="highlight">
+        <p><strong>Al reportar problemas, proporcione la siguiente información:</strong></p>
+        <ul>
+            <li>Descripción del problema (lo más detallada posible)</li>
+            <li>Modelo del dispositivo (ej: iPhone 14 Pro)</li>
+            <li>Versión de iOS (ej: iOS 17.0)</li>
+            <li>Versión de la aplicación (consulte en la parte inferior de la página "Configuración")</li>
+            <li>Pasos para reproducir el problema</li>
+            <li>Capturas de pantalla de errores (si están disponibles)</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>MassImageComp © 2025</p>
+    <p style="margin-top: 8px;">
+        <a href="https://wenxingjun.github.io/massimagecomp/privacy-es.html">Política de Privacidad</a> · 
+        <a href="https://wenxingjun.github.io/massimagecomp/terms-es.html">Términos de Uso</a>
+    </p>
+</footer>
+
+</body>
+</html>
+

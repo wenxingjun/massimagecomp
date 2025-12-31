@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>사용자 지원 - MassImageComp</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #ffffff;
+            --text: #111111;
+            --card: #f5f5f7;
+            --border: #e5e5ea;
+            --link: #0a84ff;
+            --success: #34c759;
+            --secondary: #8e8e93;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --text: #f2f2f7;
+                --card: #1c1c1e;
+                --border: #2c2c2e;
+                --link: #4da3ff;
+                --success: #32d74b;
+                --secondary: #98989d;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+            "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            background-color: var(--bg);
+            color: var(--text);
+            max-width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 12px;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        p {
+            margin: 12px 0;
+            font-size: 15px;
+        }
+
+        ul, ol {
+            padding-left: 24px;
+            margin: 12px 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .contact-section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+
+        .contact-button {
+            display: inline-block;
+            background: var(--link);
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 12px 0;
+            transition: opacity 0.2s;
+        }
+
+        .contact-button:hover {
+            opacity: 0.8;
+            text-decoration: none;
+        }
+
+        .contact-button:active {
+            opacity: 0.6;
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .email-link {
+            color: var(--link);
+            font-weight: 500;
+            word-break: break-all;
+        }
+
+        .highlight {
+            background: var(--card);
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid var(--link);
+            margin: 16px 0;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+
+        .faq-answer {
+            color: var(--secondary);
+            line-height: 1.6;
+        }
+
+        .info-box {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+
+        .response-time {
+            color: var(--success);
+            font-weight: 500;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--secondary);
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--success);
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 12px;
+            margin-left: 8px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .badge {
+                background: #32d74b;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>사용자 지원</h1>
+
+<div class="card">
+    <p><strong>MassImageComp</strong>를 사용해 주셔서 감사합니다!</p>
+    <p>우리는 최고의 이미지 압축 및 처리 경험을 제공하기 위해 노력하고 있습니다. 질문, 제안 또는 피드백이 있으시면 기꺼이 도와드리겠습니다.</p>
+</div>
+
+<section class="contact-section">
+    <h2>문의하기</h2>
+    <p>다음 방법으로 문의하실 수 있습니다:</p>
+    
+    <div style="margin: 20px 0;">
+        <p><strong>📧 이메일 지원</strong></p>
+        <p>
+            <a href="mailto:wenxingjun@163.com?subject=MassImageComp%20지원%20요청&body=안녕하세요,%0D%0A%0D%0A도움이 필요합니다:%0D%0A%0D%0A문제 설명:%0D%0A%0D%0A기기 정보:%0D%0A시스템 버전:%0D%0A앱 버전:%0D%0A%0D%0A감사합니다!" class="contact-button">
+                이메일 보내기
+            </a>
+        </p>
+        <p class="email-link">wenxingjun@163.com</p>
+    </div>
+
+    <div class="info-box">
+        <p><strong>⏱️ 응답 시간</strong></p>
+        <p class="response-time">일반적으로 <strong>1-5 영업일</strong> 이내에 이메일에 답변드립니다.</p>
+        <p style="font-size: 13px; color: var(--secondary); margin-top: 8px;">기기 모델, 시스템 버전, 앱 버전을 포함하여 가능한 한 자세히 문제를 설명해 주시기 바랍니다. 이렇게 하면 문제를 더 빠르게 해결할 수 있습니다.</p>
+    </div>
+</section>
+
+<section>
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: 구매를 복원하려면 어떻게 해야 하나요?</p>
+        <p class="faq-answer">A: 앱의 "설정" 페이지로 이동하여 "구매 복원" 옵션을 탭하세요. 구독 또는 구매를 복원할 수 없는 경우 이메일로 문의하시고 Apple ID 이메일 주소를 제공해 주세요.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: 무료 버전에는 어떤 제한이 있나요?</p>
+        <p class="faq-answer">A: 무료 버전은 배치당 최대 3장의 이미지를 처리할 수 있습니다. Pro로 업그레이드하면 무제한 배치 처리, 모든 출력 형식, 광고 없는 기능이 잠금 해제됩니다.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: 어떤 이미지 형식이 지원되나요?</p>
+        <p class="faq-answer">A: 앱은 JPEG, PNG, HEIC, WebP, GIF 등 일반적인 이미지 형식을 지원합니다. Pro 사용자는 모든 출력 형식 옵션의 잠금을 해제할 수 있습니다.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: 이미지가 서버에 업로드되나요?</p>
+        <p class="faq-answer">A: 아니요. 모든 이미지 처리는 기기에서 로컬로 수행됩니다. 이미지 데이터를 업로드하거나 저장하지 않습니다. 자세한 내용은 <a href="privacy.html">개인정보 보호정책</a>을 참조하세요.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: 구독을 취소하려면 어떻게 해야 하나요?</p>
+        <p class="faq-answer">A: iOS "설정" → "Apple ID" → "구독"에서 구독을 관리할 수 있습니다. 취소 후에도 현재 구독 기간이 종료될 때까지 Pro 기능을 사용할 수 있습니다.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-question">Q: 평생 버전이 보이지 않는 이유는 무엇인가요?</p>
+        <p class="faq-answer">A: 평생 버전은 다음 이유로 일시적으로 사용할 수 없을 수 있습니다: 제품이 아직 구성 중이거나, 귀하의 지역이 지원되지 않거나, 제품이 현재 버전에 연결되지 않았습니다. 계속 표시되지 않으면 문의하세요.</p>
+    </div>
+</section>
+
+<section>
+    <h2>피드백 및 제안</h2>
+    <div class="card">
+        <p>피드백을 환영합니다! 기능 제안, 버그 리포트 또는 경험 공유가 있으시면 이메일로 언제든지 문의하세요.</p>
+        <p>귀하의 피드백은 앱을 지속적으로 개선하고 더 나은 서비스를 제공하는 데 도움이 됩니다.</p>
+    </div>
+</section>
+
+<section>
+    <h2>기술 지원</h2>
+    <div class="highlight">
+        <p><strong>문제를 보고할 때 다음 정보를 제공해 주세요:</strong></p>
+        <ul>
+            <li>문제 설명(가능한 한 자세히)</li>
+            <li>기기 모델(예: iPhone 14 Pro)</li>
+            <li>iOS 버전(예: iOS 17.0)</li>
+            <li>앱 버전("설정" 페이지 하단에서 확인)</li>
+            <li>문제 재현 단계</li>
+            <li>오류 스크린샷(있는 경우)</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>MassImageComp © 2025</p>
+    <p style="margin-top: 8px;">
+        <a href="https://wenxingjun.github.io/massimagecomp/privacy-ko.html">개인정보 보호정책</a> · 
+        <a href="https://wenxingjun.github.io/massimagecomp/terms-ko.html">이용 약관</a>
+    </p>
+</footer>
+
+</body>
+</html>
+
