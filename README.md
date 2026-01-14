@@ -1,9 +1,9 @@
-# App Store application - MassImageComp
+# App Store application - PixShrink
 【Promotional Text】
 Free up storage space with batch image compression. Smart compression maintains quality. Convert HEIC/JPEG/PNG/WebP/GIF. Pro version supports unlimited batch processing.
 
 【Description】
-MassImageComp is a professional image compression and format conversion tool that helps you easily free up storage space on your device while maintaining image quality.
+PixShrink is a professional image compression and format conversion tool that helps you easily free up storage space on your device while maintaining image quality.
 
 Key Features:
 - Smart Batch Compression - Process multiple images at once, significantly reducing file sizes
